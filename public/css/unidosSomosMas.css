@@ -1,0 +1,421 @@
+@media (max-width: 1199px) { 
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+} 
+
+
+footer{
+    width: 100%;
+    background-image:    -moz-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image: -webkit-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:      -o-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:     -ms-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:         radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    color: white;   
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+
+
+.container-footer{
+    width: 100%;  
+    background-image:    -moz-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image: -webkit-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:      -o-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:     -ms-radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+    background-image:         radial-gradient(50px 100px, circle farthest-corner, #0061a2, #193b68 450px);
+   
+   color: white;   
+}
+
+.footer1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+
+
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+
+.boton .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -50px;
+    margin-bottom: 25px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.boton:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.boton .tooltiptext::after{
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+
+}
+
+
+.video-container {
+    position: relative;
+    display: block;
+    padding-bottom: 50.25%; /* proporción 16:9 */
+    padding-top: 25px;
+    height: 0;
+    
+
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+
+}
+
+.celda-informacion{
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+.botones-campaña{
+    text-align: center;
+}
+
+.recompensa{
+    border: #D7DBDD 1px solid;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 20px
+}
+.recompensa .titulo-recompensa{
+    color: #348fe2;
+    font-size: 17px;
+}
+.recompensa p{
+     text-align: justify !important;
+     padding: 10px;
+}
+.descripcion-campaña{
+    text-align: justify !important;
+}
+
+.imagen-container {
+     margin-bottom: 10px;
+}
+
+.imagen-container img{
+    
+    height: 350px; 
+    display: block; 
+    margin: auto;
+}
+
+
+/* -----------------------------------------------
+------------        Recompensas: ;   -------------
+----------------------------------------------- */
+
+.reward ul,li{
+  list-style:none outside none
+}
+.project-form-headline h3{
+  margin-top:0;font-weight:600
+}
+.reward-list ul{
+  padding:0;
+  margin:0;
+}
+
+.reward span,.reward label{
+  display:block;
+  font-weight:400
+}
+.reward .reward-media{
+  background-color:#fcfcfc;
+  margin-bottom:10px;
+  padding:15px;
+  cursor:pointer;
+  position:relative;
+  border:1px solid transparent
+  }
+.reward .reward-media:hover{
+  border:1px solid #ddd
+  }
+.reward .reward-body{
+  margin-left:40px;
+  text-align: justify;
+  }
+
+.reward .reward-title{
+  font-size:15px;
+  font-weight:700;
+  margin-bottom:10px;
+  text-align: center;
+  color: #348fe2;
+
+  }
+.reward .reward-descrip{
+  margin-bottom:15px
+  }
+.reward .reward-note{
+  font-size:11px
+  }
+  .reward .reward-claimed{
+  margin-bottom:5px
+  }
+
+  .reward .indicator{
+  position:absolute;
+  left:0;
+  bottom:0;
+  background-color:#348fe2;
+  padding:5px 10px;
+  color:#fff;
+  display:none
+  }
+.reward input[type=radio]:checked+.reward-media{
+    border:1px solid #348fe2;
+
+    }
+.reward input[type=radio]:checked+.reward-media .indicator{
+      display:block
+
+      }
+.reward .reward-amount{
+  float:left;
+  margin-right:15px;
+  width:120px;
+  font-weight:700;
+  font-size:20px;
+  color:#ef4f5d
+  }
+/* -----------------------------------------------
+----- informacion general detalle donacion ------
+----------------------------------------------- */
+
+.subtitulo-info-general{
+  background-color: #f3f3f3;
+  padding:5px 5px 5px 15px;
+}
+.informacion-campaña{
+  padding-left:8%;
+  padding-right:4%;
+  text-align: justify;
+}
+.detalle-donacion{
+  line-height: 27px;
+}
+.detalle-campaña{
+  line-height: 27px;
+  font-size: 16px;
+}
+
+
+/* -----------------------------------------------
+------------ imagen campaña en registro-----------
+----------------------------------------------- */
+
+
+.fileinput-new, .fileinput-preview img {
+  width: 240px;
+  height: 180px;
+}
+/* -----------------------------------------------
+------------ imagenes en tabla campaña -------------
+----------------------------------------------- */
+
+.imagen-campaña{
+    width:100px;
+    height:55px;
+    
+}
+.celda-descripcion{
+width: 300px; /*Aquí va el ancho de la Celda*/
+
+}
+.celda-acciones{
+width: 150px; /*Aquí va el ancho de la Celda*/
+
+}
+/* -----------------------------------------------
+------------ Estrellas de valoración -------------
+----------------------------------------------- */
+
+.stars-fieldset {
+width: 100px;
+border: none;
+font-weight: bold;
+font-size: 14px;
+}
+
+.stars1 {
+width: 100px;
+height: 20px;
+display: inline-block;
+background: url(../imagenes/estrellas.png) 0 0 no-repeat;
+}
+.stars {
+width: 100px;
+height: 21px;
+display: block;
+background: url(../imagenes/estrellas.png) 0 0 no-repeat;
+}
+
+.stars-0 { background-position: -100px -0; }
+.stars-5 { background-position: -81px -21px; }
+.stars-10 { background-position: -81px 0; }
+.stars-15 { background-position: -61px -21px; }
+.stars-20 { background-position: -60px 0; }
+.stars-25 { background-position: -40px -21px; }
+.stars-30 { background-position: -40px 0; }
+.stars-35 { background-position: -21px -21px; }
+.stars-40 { background-position: -21px 0; } 
+.stars-45 { background-position: 0 -21px; }
+.stars-50 { background-position: 0 0; }
+/* -----------------------------------------------
+------------ imagen Perfil-----------
+----------------------------------------------- */
+
+
+.fotografiaMiperfil {
+  height: 200px;
+  background-size: 100%;
+  border-radius:250px;
+ 
+}
+
+@media screen and (max-width: 992px){
+    
+    .fotografiaMiperfil{
+        margin: auto;
+        width: 50%;
+    }
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body1{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 90%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 1px;
+    }
+}
